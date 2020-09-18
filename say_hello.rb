@@ -6,7 +6,7 @@ end
 def sum(a,b)
   puts "hey"
   if a == 1
-    return "Hello, This is" + (a + b).to_s
+    return "Hello, This is #{(a + b)}"
   else
     return a - b
   end
@@ -16,4 +16,3 @@ a = 1
 b = 2
 c = sum(a,b)
 
-puts c + c
