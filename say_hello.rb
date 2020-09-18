@@ -5,6 +5,7 @@ end
 
 def sum(a,b)
   puts a + b
+  return a + b
 end
 
 a = 1
