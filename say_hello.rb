@@ -4,7 +4,6 @@ def say_hello (name="Ruby Programmer")
 end
 
 def sum(a,b)
-  puts "hey"
   if a == 1
     return "Hello, This is #{(a + b)}"
   else
@@ -16,3 +15,4 @@ a = 1
 b = 2
 c = sum(a,b)
 
+puts c
