@@ -3,4 +3,10 @@ def say_hello (name="Ruby Programmer")
   puts "Hello #{name}!"
 end
 
-say_hello
+def sum (a,b)
+  puts a + b
+end
+
+c = sum (1,2)
+
+puts c
