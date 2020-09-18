@@ -12,7 +12,7 @@ def sum(a,b)
   end
 end
 
-a = 1
+a = 3
 b = 2
 c = sum(a,b)
 
