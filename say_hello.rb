@@ -11,4 +11,4 @@ a = 1
 b = 2
 c = sum(a,b)
 
-puts c
+puts c + c
