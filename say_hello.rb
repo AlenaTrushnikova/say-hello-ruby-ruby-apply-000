@@ -7,6 +7,8 @@ def sum (a,b)
   puts a + b
 end
 
-c = sum (1,2)
+a = 1
+b = 2
+c = sum
 
 puts c
