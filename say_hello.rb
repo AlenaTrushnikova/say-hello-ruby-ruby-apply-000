@@ -6,13 +6,13 @@ end
 def sum(a,b)
   puts "hey"
   if a == 1
-    return a + b
+    return "Hello, This is" + (a + b).to_s
   else
     return a - b
   end
 end
 
-a = 3
+a = 1
 b = 2
 c = sum(a,b)
 
