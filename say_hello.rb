@@ -5,7 +5,11 @@ end
 
 def sum(a,b)
   puts "hey"
-  return a + b
+  if a == 1
+    return a + b
+  else
+    return a - b
+  end
 end
 
 a = 1
