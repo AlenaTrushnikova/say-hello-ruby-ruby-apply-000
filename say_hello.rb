@@ -4,7 +4,7 @@ def say_hello (name="Ruby Programmer")
 end
 
 def sum(a,b)
-  puts a + b + "hey"
+  puts "hey"
   return a + b
 end
 
